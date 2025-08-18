@@ -5,5 +5,5 @@ llm:
 
   groq:
     provider: "groq"
-    model: "gemini-1.5-pro"
+    model: "deepseek-r1-distill-llama-70b"
     
