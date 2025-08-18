@@ -1,11 +1,10 @@
-from setuptools import find_packages,setup
-from typing import List
+from setuptools import find_packages, setup
 
-def get_requirements()->List[str]:
+def get_requirements() -> list[str]:
     """
     This function will return list of requirements
     """
-    requirement_list:List[str] = []
+    requirement_list: list[str] = []
     
     try:
         # Open and read the requirements.txt file
